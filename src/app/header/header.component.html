@@ -1,0 +1,11 @@
+<!--  nav-bar start   -->
+<nav class="navbar navbar-light pr-navbar" *ngIf="navdisplay" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="800">
+  <div class="pr_active-user">
+      <p>Employee</p>
+    </div>  <!-- ld_active-user  -->
+              <!--  setting icon -->
+<div class="pr_settings-icon-wrap">
+  <a *ngIf="navdisplay" (click) = "logout()" role="button"><p class="pr_username">Logout</p></a>
+</div>
+</nav>
+<!--  nav-bar end  -->	
